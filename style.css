@@ -1,7 +1,7 @@
 
 /* Reset CSS */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap') 
-@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Mrs+Saint+Delafield&display=swap')
 * {
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 30px 0;
-    font-family:"Mr Dafoe";
+    font-family:"Mrs Saint Delafield";
    
 }
 
