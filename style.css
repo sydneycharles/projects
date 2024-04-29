@@ -32,7 +32,6 @@ header {
     text-align: center;
     padding: 10px 0;
 
-   
 }
 
 header h1 {
@@ -57,7 +56,7 @@ nav ul li a {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #4e4d4d;
+    background-color: #1a1717;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -127,7 +126,7 @@ nav ul li a {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #2d2d2d;
+    background-color: #242424;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -153,14 +152,23 @@ html {
 
   #blogs {
     background-color: rgb(27, 26, 26);
-    color:rgb(156, 204, 217);
+    color:rgb(172, 212, 224);
 }
 
 
 .dc{
-    color:rgb(156, 204, 217)
+    color:rgb(138, 172, 181)
 }
 
 .hcc{
     color: #bfc0c2;
+}
+
+.dcc{
+    color: #bccfe7;
+    font-size: larger;
+}
+
+.ac{
+    color:rgb(122, 210, 254) ;
 }
