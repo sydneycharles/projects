@@ -14,7 +14,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #151414;
+    background-color: #151515;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -57,9 +57,9 @@ nav ul li a {
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #1a1717;
+    background-color: #0b0b0b;
     transition: background-color 0.3s, color 0.3s;
-    border: solid 1px rgb(255, 255, 255);
+    border: solid 1px rgb(146, 228, 255);
 }
 
 nav ul li a:hover {
