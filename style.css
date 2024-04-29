@@ -153,13 +153,13 @@ html {
 
   #blogs {
     background-color: rgb(27, 26, 26);
-    color:rgb(122, 198, 219);
+    color:rgb(156, 204, 217);
 }
 
 .hc{
     color: #edebeb;
 }
 
-.hcc{
-    color: #8dcfd4;
+.dc{
+    color:rgb(154, 176, 182)
 }
