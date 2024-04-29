@@ -83,7 +83,7 @@ section h2 {
 }
 
 .project {
-    background-color: #282828;
+    background-color: #1f1f1f;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -151,4 +151,15 @@ html {
     font-family: "Exo 2", sans-serif;
   }
 
+  #blogs {
+    background-color: rgb(27, 26, 26);
+    color:rgb(122, 198, 219);
+}
 
+.hc{
+    color: #edebeb;
+}
+
+.hcc{
+    color: #8dcfd4;
+}
