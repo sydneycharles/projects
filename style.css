@@ -83,7 +83,7 @@ section h2 {
 }
 
 .project {
-    background-color: #1e1d1d;
+    background-color: #1b1b1b;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -156,10 +156,11 @@ html {
     color:rgb(156, 204, 217);
 }
 
-.hc{
-    color: #edebeb;
-}
 
 .dc{
-    color:rgb(154, 176, 182)
+    color:rgb(156, 204, 217)
+}
+
+.hcc{
+    color: #bfc0c2;
 }
