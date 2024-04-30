@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>Sydney Charles</h1>
+        <h1> <span class="hcc">Hello! </span>Im Sydney :)</h1>
     </header>
     <nav>
         <ul>
@@ -23,8 +23,8 @@
     <main>
         <section id="about">
             <!-- <h2>About Me</h2> -->
-            <p class="dcc">
-                I am fascinated by the process of transforming raw data into actionable intelligence. Whether it's building predictive models or exploring advanced algorithms, I find myself deeply engaged in the pursuit of solving complex problems and driving innovation using machine learning.
+            <p id="text" class="dcc">
+             
             </p>
         </section>
         <!-- projects section -->
@@ -41,7 +41,7 @@
                 <p>Algorithmic Trading means using algorithms in buying and selling decisions in the financial market. In an algorithmic trading strategy, a set of predefined rules are used to determine when to buy a financial instrument and when to sell it.</p>
                 <p><strong><a class="bt"  href="https://colab.research.google.com/drive/106XnS6WEBBLyWan9f6NWHXxOd1csXIDh?usp=sharing">Project Link</a></strong></p>
             </div>
-            <!-- Add more projects as needed -->
+            <!-- Add more projects as needed -->    
         </section>
 
         <!-- blog section -->
@@ -73,5 +73,40 @@
             </ul>
         </section>
     </main>
+    <!-- Script for typing effect -->
+<script>
+    // Text content to be typed
+    var text = "I am fascinated by the process of transforming raw data into actionable intelligence. Whether it's building predictive models or exploring advanced algorithms, I find myself deeply engaged in the pursuit of solving complex problems and driving innovation using machine learning.";
+    // Speed at which each character is typed (in milliseconds)
+    var speed = 50;
+  
+    // Function to create typing effect
+    function typeWriter() {
+      // Get the text element
+      var textElement = document.getElementById('text');
+  
+      // Reset text content when reaching the end
+      if (i === text.length) {
+        textElement.textContent = ''; // Clear text content
+        i = 0; // Reset index
+      }
+  
+      // Append the next character to the text element
+      textElement.textContent += text.charAt(i);
+      // Increment index for next character
+      i++;
+  
+      // Call this function again after a certain delay
+      setTimeout(typeWriter, speed);
+    }
+  
+    // Index to keep track of current character being typed
+    var i = 0;
+  
+    // Start the typing effect when the page loads
+    window.onload = function() {
+      typeWriter();
+    };
+  </script>
 </body>
 </html>
