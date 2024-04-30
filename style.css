@@ -1,6 +1,4 @@
 
-/* Reset CSS */
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')  */
 
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap')
 
@@ -17,7 +15,7 @@ body {
     background-color: #151515;
     color: #fff;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     font-family: "Exo 2", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -27,7 +25,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #121212;
+    background-color: #18181825;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -163,6 +161,7 @@ html {
 
 .dc{
     color:rgb(183, 231, 255);
+    
 }
 
 .hcc{
