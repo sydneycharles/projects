@@ -63,6 +63,10 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.mb{
+    padding: 10px 35px;
+}
+
 /* Main styles */
 main {
     padding: 20px;
@@ -103,6 +107,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+
 }
 
 a{
@@ -193,5 +198,11 @@ html {
 .bt:hover{
     background-color: #bfc0c2;
     color: #121212;
+}
+
+/* footer copyright */
+.ftr{
+    font-size: 14px;
+    
 }
 
