@@ -12,7 +12,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #151515;
+    background-color: #1f1e1e;
     color: #fff;
     margin: 0;
     padding: 4px;
@@ -23,7 +23,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #18181825;
+    background-color: #181818b6;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -137,6 +137,7 @@ nav ul li a:hover {
 #contact ul {
     list-style: none; /* Remove bullet points */
     padding-left: 0; /* Remove left padding */
+    
 }
 /* Smooth scrolling behavior */
 html {
@@ -168,6 +169,7 @@ html {
 }
 .dccc{
     color:rgb(183, 231, 255);
+    font-size: 70px;
 }
 
 .ac{
