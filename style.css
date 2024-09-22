@@ -2,13 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap')
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+/* Body  */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -21,7 +21,7 @@ body {
     font-style: normal;
 }
 
-/* Header styles */
+/* Header */
 header {
     background-color: #22222200;
     color:rgba(255, 255, 255, 0.94);
@@ -37,7 +37,7 @@ header h1 {
     text-align: center;
 }
 
-/* Navigation styles */
+/* Navigation s*/
 nav ul {
     list-style: none;
     text-align: center;
@@ -67,13 +67,37 @@ nav ul li a:hover {
     padding: 10px 35px;
 }
 
-/* Main styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #242424;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f2f4f7;
+    color: #1f1f1f; /* Change text color to black on hover */
+}
+
+/* Main */
 main {
     padding: 20px;
 
 }
 
-/* Section styles */
+/* Section */
 section {
     margin-bottom: 40px;
 }
@@ -101,7 +125,7 @@ section h2 {
     margin-bottom: 10px;
 }
 
-/* Footer styles */
+/* Footer */
 footer {
     background-color: #222;
     color: #fff;
@@ -110,50 +134,15 @@ footer {
 
 }
 
-a{
-    color: #f8fafd;
-}
 
-/* Navigation styles */
-nav ul {
-    list-style: none;
-    text-align: center;
-}
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #242424;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-nav ul li a:hover {
-    background-color: #f2f4f7;
-    color: #1f1f1f; /* Change text color to black on hover */
-}
-
-/* Contact section styles */
-#contact ul {
-    list-style: none; /* Remove bullet points */
-    padding-left: 0; /* Remove left padding */
-    
-}
 /* Smooth scrolling behavior */
 html {
     scroll-behavior: smooth;
 }
 
-  p{
-    font-size:large;
-    font-family: "Exo 2", sans-serif;
-  }
+
 /* blog section */
   #blogs {
     background-color: rgb(27, 26, 26);
@@ -162,7 +151,12 @@ html {
     padding: 15px;
 }
 
-/* other texts */
+/* texts */
+
+p{
+    font-size:large;
+    font-family: "Exo 2", sans-serif;
+  }
 .dc{
     color:rgb(183, 231, 255);
 }
@@ -186,6 +180,11 @@ html {
 .cc{
     color:rgb(121, 210, 255);
     }
+
+    a{
+        color: #f8fafd;
+    }
+    
 /* projects and blog buttons */
 .bt{
     text-decoration: none;
@@ -201,12 +200,5 @@ html {
     color: #121212;
 }
 
-/* footer copyright */
-.ftr{
-    font-size: 14px;
-    
-}
-
-    
 
 
