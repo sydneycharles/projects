@@ -21,6 +21,26 @@ body {
     font-style: normal;
 }
 
+p{
+    font-size:large;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  a{
+    color: #f8fafd;
+}
+
+
+
+
+  /* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
 /* Header */
 header {
     background-color: #22222200;
@@ -36,6 +56,7 @@ header h1 {
     font-family: "Exo 2", sans-serif;
     text-align: center;
 }
+
 
 /* Navigation s*/
 nav ul {
@@ -134,15 +155,6 @@ footer {
 
 }
 
-
-
-
-/* Smooth scrolling behavior */
-html {
-    scroll-behavior: smooth;
-}
-
-
 /* blog section */
   #blogs {
     background-color: rgb(27, 26, 26);
@@ -151,12 +163,7 @@ html {
     padding: 15px;
 }
 
-/* texts */
-
-p{
-    font-size:large;
-    font-family: "Exo 2", sans-serif;
-  }
+/*othertexts */
 .dc{
     color:rgb(183, 231, 255);
 }
@@ -168,23 +175,7 @@ p{
     font-size: x-large;
     
 }
-.dccc{
-    color:rgb(183, 231, 255);
-    font-size:40px;
-}
 
-.ac{
-    color:rgb(121, 210, 255) ;
-}
-
-.cc{
-    color:rgb(121, 210, 255);
-    }
-
-    a{
-        color: #f8fafd;
-    }
-    
 /* projects and blog buttons */
 .bt{
     text-decoration: none;
