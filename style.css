@@ -22,25 +22,17 @@ body {
 }
 
 p{
-    font-size:large;
-    font-family: "Exo 2", sans-serif;
+font-size:large;
+font-family: "Exo 2", sans-serif;
   }
 
   a{
     color: #f8fafd;
 }
-
-
-
-
-  /* Smooth scrolling behavior */
+ /* Smooth scrolling behavior */
 html {
     scroll-behavior: smooth;
 }
-
-
-
-
 /* Header */
 header {
     background-color: #22222200;
@@ -49,15 +41,12 @@ header {
     padding: 10px 0;
 
 }
-
 header h1 {
     font-size: 2.2rem;
     margin-bottom: 10px;
     font-family: "Exo 2", sans-serif;
     text-align: center;
 }
-
-
 /* Navigation s*/
 nav ul {
     list-style: none;
@@ -84,20 +73,17 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.mb{
+.butn{
     padding: 10px 35px;
 }
-
 nav ul {
     list-style: none;
     text-align: center;
 }
-
 nav ul li {
     display: inline-block;
     margin-right: 20px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: #fff;
@@ -106,23 +92,18 @@ nav ul li a {
     background-color: #242424;
     transition: background-color 0.3s, color 0.3s;
 }
-
 nav ul li a:hover {
     background-color: #f2f4f7;
     color: #1f1f1f; /* Change text color to black on hover */
 }
-
 /* Main */
 main {
     padding: 20px;
-
 }
-
 /* Section */
 section {
     margin-bottom: 40px;
 }
-
 section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -136,12 +117,10 @@ section h2 {
     margin-bottom: 20px;
     border: solid 1px rgb(255, 255, 255);
 }
-
 .project h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
-
 .project p {
     margin-bottom: 10px;
 }
@@ -154,7 +133,6 @@ footer {
     padding: 20px 0;
 
 }
-
 /* blog section */
   #blogs {
     background-color: rgb(27, 26, 26);
@@ -164,18 +142,14 @@ footer {
 }
 
 /*othertexts */
-.dc{
-    color:rgb(183, 231, 255);
-}
-.hcc{
+.text1{
     color: rgb(183, 231, 255);
 }
-.dcc{
+.text2{
     color:rgb(183, 231, 255);
     font-size: x-large;
     
 }
-
 /* projects and blog buttons */
 .bt{
     text-decoration: none;
@@ -185,7 +159,6 @@ footer {
     font-size: small;
     font-weight: bold;
 }
-
 .bt:hover{
     background-color: #bfc0c2;
     color: #121212;
